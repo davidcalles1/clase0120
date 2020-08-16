@@ -13,14 +13,32 @@ public class coche {
     private String marca;
     private int año;
     private String color;
+    private int npuertas;
     
     public coche(String pmarca,int paño,String Pcolor){
      marca = pmarca;
      año = paño;
      color = Pcolor;
      
+     
         
     }
+     public coche(String pmarca,int paño,String Pcolor,int pnpuertas){
+     marca = pmarca;
+     año = paño;
+     color = Pcolor;
+     npuertas = pnpuertas;
+     
+     
+        
+    }
+
+    @Override
+    public String toString() {
+        return "coche{" + "marca=" + marca + ", a\u00f1o=" + año + ", color=" + color + ", npuertas=" + npuertas + '}';
+    }
+
+    
     
 
     

@@ -14,7 +14,10 @@ public class clase0120 {
 //        
         coche micarro = new coche("TOYOTA",2019,"AZUL");
         coche tucarro = new coche("NISSAN",2019,"ROJO");
-        System.out.println();
+        coche carroconmasparametros = new coche("NISSAN",2019,"ROJO",4);
+        
+//        System.out.println(micarro.toString());
+          System.out.println(carroconmasparametros.toString());
         
    }
     
